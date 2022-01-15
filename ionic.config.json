@@ -1,0 +1,7 @@
+{
+  "name": "kaajate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
