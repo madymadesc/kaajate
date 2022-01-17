@@ -14,7 +14,7 @@
                 <ion-img src="assets/images/home.png"></ion-img>
               </div>
               <div class="col">
-                   <a href="">Accueil</a>
+                   <a href="/home">Accueil</a>
               </div>
             </div>
             <hr>
@@ -107,28 +107,32 @@
   <div class="back">
     <!-- les chiffres debut -->
     <div class="container bac">
+      <ion-item>
+        <ion-label>Bienvenu(e)</ion-label>
+        <ion-label>722 78 971</ion-label>
+      </ion-item>
       <div class="row">
         <div class="col">
-              <h4> <span>DEBIT</span></h4>
+              <span>Débit</span>
         </div>
         <div class="col">
-              <h4>12 450 F </h4>
+              12 450.035 F
+        </div>
+      </div>
+      <div class="row" style="background-color: #4d4d73;color: #fff;">
+        <div class="col">
+           <span>Crédit</span>
+          </div>
+        <div class="col">
+              12 450.061 F
         </div>
       </div>
       <div class="row">
         <div class="col">
-              <h4><span>CREDIT</span></h4>
+              <span>Espèces</span>
           </div>
         <div class="col">
-              <h4>12 450 F</h4>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-              <h4><span>ESPECES</span></h4>
-          </div>
-        <div class="col">
-              <h4>12 450 F</h4>
+              12 450.145 F
         </div>
       </div>
     </div>
@@ -142,7 +146,7 @@
         <div class="cover">
           <div>
             <ion-img src="assets/images/ca.png"></ion-img>
-            <h4>CA</h4>
+            <a href="">CA</a>
           </div>
         </div>
       </div>
@@ -150,7 +154,7 @@
         <div class="cover">
           <div>
             <ion-img src="assets/images/service.png"></ion-img>
-            <h4>Services</h4>
+           <a href="">Services</a>
           </div>
         </div>
       </div>
@@ -162,7 +166,7 @@
         <div class="cover">
           <div>
             <ion-img src="assets/images/Document.png"></ion-img>
-            <h4>Documents</h4>
+            <a href="">Documents</a>
           </div>
         </div>
       </div>
@@ -170,7 +174,7 @@
         <div class="cover">
           <div>
             <ion-img src="assets/images/registre.png"></ion-img>
-            <h4>Registre</h4>
+            <a href="">Registre</a>
           </div>
         </div>
       </div>
@@ -182,7 +186,7 @@
         <div class="cover">
           <div>
             <ion-img src="assets/images/credit.png"></ion-img>
-            <h4>Crédit</h4>
+            <a href="">Crédit</a>
           </div>
         </div>
       </div>
@@ -190,7 +194,7 @@
         <div class="cover">
           <div>
             <ion-img src="assets/images/depense.png"></ion-img>
-            <h4>Débit</h4>
+            <a href="">Débit</a>
           </div>
         </div>
       </div>
@@ -200,6 +204,24 @@
   </div>
     <!-- les bloc fin-->
 </div>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="speakers">
+      <ion-icon name="settings-outline"></ion-icon>
+      <ion-label>Paramètre</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="map">
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Accueil</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="about">
+      <ion-icon name="information-circle"></ion-icon>
+      <ion-label>About</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
 </ion-content>
 </div>
 </ion-app>

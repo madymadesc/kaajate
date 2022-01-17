@@ -2,7 +2,9 @@
   background: url(../../assets/images/back.png) 100% 100% no-repeat ;
   height: 100%;
 }
-
+ion-title{
+  text-align: center;
+}
 .cover{
   background-color: #fff;
   box-shadow: 5px 5px 12px #4D4D73;
@@ -15,19 +17,20 @@
   height: 80px;
   margin: 0 auto;
 }
-.cover h4{
-  font-size: 16px;
+.cover a{
+  font-size: 20px;
   font-weight: bold;
   color: #4D4D73;
+  text-decoration: none;
 }
 .toolbare{
   background-color: #4D4D73;
 }
-span{
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-}
+// span{
+//   font-size: 18px;
+//   font-weight: bold;
+//   text-align: center;
+// }
 .separ{
   margin-top: 15px;
 }
@@ -51,3 +54,4 @@ hr{
   max-width: 50%;
   margin: 0 auto;
 }
+
