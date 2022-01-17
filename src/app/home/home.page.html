@@ -1,18 +1,205 @@
+<ion-app>
+  <ion-menu side="start" content-id="main-content">
+    <ion-header >
+      <ion-toolbar translucent >
+         <div class="col sidee">
+          <ion-img src="assets/images/KaaJate.png"></ion-img>
+        </div>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list class="menuu">
+            <div class="row ">
+              <div class="col gauch">
+                <ion-img src="assets/images/home.png"></ion-img>
+              </div>
+              <div class="col">
+                   <a href="">Accueil</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/ca.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">CA</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/service.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Services</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/Document.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Documents</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/registre.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Registre</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/credit.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Crédit</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/depense.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Débit</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/parametre.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Paramètre</a>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col gauch">
+                <ion-img src="assets/images/exit.png"></ion-img>
+              </div>
+              <div class="col">
+                <a href="">Fermer</a>
+              </div>
+            </div>
+            <hr>
 
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar color="primary" >
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>KaaJate</ion-title>
+      </ion-toolbar>
+    </ion-header>
 <ion-content >
   <div class="back">
-      <div class="bac">
-        <ion-img  src="assets/images/Kaa2.png"></ion-img>
+    <!-- les chiffres debut -->
+    <div class="container bac">
+      <div class="row">
+        <div class="col">
+              <h4> <span>DEBIT</span></h4>
+        </div>
+        <div class="col">
+              <h4>12 450 F </h4>
+        </div>
       </div>
-  <form autocapitalize="off">
-    <ion-card class="mad">
-        <ion-input class="madi" type="text" name="login" placeholder="     Nom d'utilisateur"></ion-input>
-        <ion-input class="madi"  type="password" name="password" placeholder="     Mot de passe"></ion-input>
-        <p><a href="#">Mot de passe oublier ?</a></p>
-        <ion-button fill="outline" expand="block" routerLink='/login' type="submit" >
-        Connexion
-    </ion-button>
-    </ion-card>
-  </form>
+      <div class="row">
+        <div class="col">
+              <h4><span>CREDIT</span></h4>
+          </div>
+        <div class="col">
+              <h4>12 450 F</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+              <h4><span>ESPECES</span></h4>
+          </div>
+        <div class="col">
+              <h4>12 450 F</h4>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- les chiffres fin -->
+    <!-- les bloc -->
+  <div class="container">
+<!-- parti 1 -->
+    <div class="row separ">
+      <div class="col">
+        <div class="cover">
+          <div>
+            <ion-img src="assets/images/ca.png"></ion-img>
+            <h4>CA</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="cover">
+          <div>
+            <ion-img src="assets/images/service.png"></ion-img>
+            <h4>Services</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- parti 1 fin -->
+    <!-- parti 2  -->
+    <div class="row separ">
+      <div class="col">
+        <div class="cover">
+          <div>
+            <ion-img src="assets/images/Document.png"></ion-img>
+            <h4>Documents</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="cover">
+          <div>
+            <ion-img src="assets/images/registre.png"></ion-img>
+            <h4>Registre</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- parti 2 fin -->
+    <!-- parti 3  -->
+    <div class="row separ">
+      <div class="col">
+        <div class="cover">
+          <div>
+            <ion-img src="assets/images/credit.png"></ion-img>
+            <h4>Crédit</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="cover">
+          <div>
+            <ion-img src="assets/images/depense.png"></ion-img>
+            <h4>Débit</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- parti 3 fin  -->
+
+  </div>
+    <!-- les bloc fin-->
 </div>
 </ion-content>
+</div>
+</ion-app>

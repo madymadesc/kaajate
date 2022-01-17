@@ -2,35 +2,52 @@
   background: url(../../assets/images/back.png) 100% 100% no-repeat ;
   height: 100%;
 }
-.bac ion-img{
-  display: block;
-  margin: auto;
-  width: 200px;
-  height: 200px;
+
+.cover{
+  background-color: #fff;
+  box-shadow: 5px 5px 12px #4D4D73;
+  text-align: center;
+  border-style:ridge;
+  width:auto;
+}
+.cover ion-img{
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+.cover h4{
+  font-size: 16px;
+  font-weight: bold;
+  color: #4D4D73;
+}
+.toolbare{
+  background-color: #4D4D73;
+}
+span{
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
 }
-ion-button {
-  margin: 20px auto;
-  width: 150px;
-  background-color: #4D4D73;
-  border-radius: 5px;
-  border: #4D4D73;
-  color: #fff;
+.separ{
+  margin-top: 15px;
 }
-.mad {
-background: transparent;
+.menuu ion-img{
+  width: 40px;
+  height: 30px;
+  margin: 0 auto;
 }
-.madi {
-  border: solid #4D4D73;
-  margin-top: 10px;
-  background-color: #fff;
-  border-radius: 10px;
-  font-size: 20px;
-}
-a{
+.menuu a{
   text-decoration: none;
   color: #4D4D73;
-  font-weight: bold;
+  font-size: 20px;
 }
-
-
+.gauch{
+  max-width: 30%;
+}
+hr{
+  margin-top: 5px;
+}
+.sidee{
+  max-width: 50%;
+  margin: 0 auto;
+}
