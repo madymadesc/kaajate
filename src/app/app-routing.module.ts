@@ -19,6 +19,14 @@ const routes: Routes = [
     path: 'password',
     loadChildren: () => import('./password/password.module').then( m => m.PasswordPageModule)
   },
+  {
+    path: 'cahome',
+    loadChildren: () => import('./cahome/cahome.module').then( m => m.CahomePageModule)
+  },
+  {
+    path: 'cadetail',
+    loadChildren: () => import('./cadetail/cadetail.module').then( m => m.CadetailPageModule)
+  },
 ];
 
 @NgModule({

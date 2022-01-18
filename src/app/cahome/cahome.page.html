@@ -100,106 +100,33 @@
         <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-        <ion-title>KaaJate</ion-title>
+        <ion-title>Chiffre d'Affaire</ion-title>
       </ion-toolbar>
     </ion-header>
 <ion-content >
   <div class="back">
     <!-- les chiffres debut -->
     <div class="container bac">
-      <ion-item>
-        <ion-label>Bienvenu(e)</ion-label>
-        <ion-label>722 78 971</ion-label>
-      </ion-item>
-      <div class="row">
-        <div class="col">
-              <span>Débit</span>
-        </div>
-        <div class="col">
-              12 450.035 F
-        </div>
-      </div>
-      <div class="row" style="background-color: #4d4d73;color: #fff;">
-        <div class="col">
-           <span>Crédit</span>
-          </div>
-        <div class="col">
-              12 450.061 F
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-              <span>Espèces</span>
-          </div>
-        <div class="col">
-              12 450.145 F
-        </div>
-      </div>
+      <ion-searchbar></ion-searchbar>
     </div>
     <hr>
+    <ion-button routerLink='/home' fill="outline" expand="block" type="submit" >
+      Ajouter
+  </ion-button>
     <!-- les chiffres fin -->
     <!-- les bloc -->
   <div class="container">
 <!-- parti 1 -->
-    <div class="row separ">
-      <div class="col">
-        <div class="cover">
-          <div>
-            <ion-img routerLink='/cahome'src="assets/images/ca.png"></ion-img>
-            <a href="/cahome">CA</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="cover">
-          <div>
-            <ion-img src="assets/images/service.png"></ion-img>
-           <a href="">Services</a>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col">
+    <a href="">Chiffre d'affaire CSC</a>
+  </div>
+  <div class="col gauch drte">
+    <ion-img src="assets/images/view.png"></ion-img>
+  </div>
+</div>
+<hr>
     <!-- parti 1 fin -->
-    <!-- parti 2  -->
-    <div class="row separ">
-      <div class="col">
-        <div class="cover">
-          <div>
-            <ion-img src="assets/images/Document.png"></ion-img>
-            <a href="">Documents</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="cover">
-          <div>
-            <ion-img src="assets/images/registre.png"></ion-img>
-            <a href="">Registre</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- parti 2 fin -->
-    <!-- parti 3  -->
-    <div class="row separ">
-      <div class="col">
-        <div class="cover">
-          <div>
-            <ion-img src="assets/images/credit.png"></ion-img>
-            <a href="">Crédit</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="cover">
-          <div>
-            <ion-img src="assets/images/depense.png"></ion-img>
-            <a href="">Débit</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- parti 3 fin  -->
 
   </div>
     <!-- les bloc fin-->
