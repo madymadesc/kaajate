@@ -27,6 +27,11 @@ const routes: Routes = [
     path: 'cadetail',
     loadChildren: () => import('./cadetail/cadetail.module').then( m => m.CadetailPageModule)
   },
+  {
+    path: 'acceuil',
+    loadChildren: () => import('./acceuil/acceuil.module').then( m => m.AcceuilPageModule)
+  },
+
 ];
 
 @NgModule({
